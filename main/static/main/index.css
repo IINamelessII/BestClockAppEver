@@ -46,16 +46,14 @@ header {
     font-size: 4rem;
     margin: 1rem;
     font-weight: 900;
-    /* font-family: 'Roboto Condensed', sans-serif; */
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    /* font-family: 'Roboto Slab', serif; */
-    /* font-family: 'Merriweather', serif; */
+    font-family: 'answer';
 }
 
 .sublogo {
     font-size: 2rem;
     margin: 1rem;
     margin-left: 12rem;
+    font-family: 'doublebass';
 }
 
 .logo-img {
@@ -84,4 +82,24 @@ main {
 .title {
     color: #fc5226;
     font-weight: 600;
+}
+
+@font-face {
+    font-family: 'answer';
+    src: url('fonts/answer/Answer3DFilled.ttf');
+}
+
+@font-face {
+    font-family: 'doublebass';
+    src: url('fonts/doublebass/DoubleBass-Regular-trial.ttf');
+}
+
+@font-face {
+    font-family: 'doublebass-bold';
+    src: url('fonts/doublebass/DoubleBass-Bold-trial.ttf');
+}
+
+@font-face {
+    font-family: 'sylar-stencil';
+    src: url('fonts/sylar-stencil/sylar_stencil.ttf');
 }
