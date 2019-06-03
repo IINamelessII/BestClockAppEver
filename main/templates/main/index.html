@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'main/index.css' %}">
+    <title>Best Clock App Ever</title>
+</head>
+<body>
+    <header class="logo-level">
+        <div class="logo">BCAE</div>
+        <div class="sublogo">Best Clock App Ever</div>
+    </header>
+    <main class="data-main">
+        <div class="data-block">
+            <div class="title">Id:</div>
+            <div class="data">{{ id }}</div>
+        </div>
+        <div class="data-block">
+            <div class="title">Works:</div>
+            <div class="data">{{ works }}</div>
+        </div>
+        <div class="data-block">
+            <div class="title">Repeats:</div>
+            <div class="data">{{ repeat_counter }}</div>
+        </div>
+        <div class="data-block">
+            <div class="title">Alert time:</div>
+            <div class="data">{{ alert_time }}</div>
+        </div>
+        <div class="data-block">
+            <div class="title">Power from network:</div>
+            <div class="data">{{ power_from_network }}</div>
+        </div>
+    </main>
+    <a href="/">
+        <div class="button">Refresh Data</div>
+        <div class="subbutton">(if it was updated from mobile device)</div>
+    </a>
+</body>
+</html>
