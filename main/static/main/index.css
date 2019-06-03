@@ -1,3 +1,40 @@
 body {
-    background-color: yellowgreen;
+    background-color:#1561ad;
+    color: whitesmoke;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button {
+    background-color: #1dbab4;
+    
+    color: whitesmoke;
+}
+
+.button:hover {
+    background-color: #fc5226;
+}
+
+header {
+    margin: 10px;
+    border: #1c77ac 7px solid;
+    height: 10rem;
+}
+
+.logo {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.sublogo {
+    font-size: 2rem;
+    margin: 1rem;
+    margin-left: 12rem;
+}
+
+.right {
+    background-image: url("/static/main/logo.png")
 }
