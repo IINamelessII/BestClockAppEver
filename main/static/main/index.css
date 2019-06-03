@@ -26,6 +26,7 @@ a{
     padding: 10px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    transition: all .3s;
 }
 
 .button> {
@@ -47,6 +48,7 @@ header {
     margin: 1rem;
     font-weight: 900;
     font-family: 'answer';
+    transition: all .3s;
 }
 
 .sublogo {
