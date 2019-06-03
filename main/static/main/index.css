@@ -1,7 +1,18 @@
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+  
 body {
     background-color:#1561ad;
     color: whitesmoke;
     margin: 0;
+    font-size: 1.8rem;
 }
 
 a{
@@ -10,8 +21,15 @@ a{
 
 .button {
     background-color: #1dbab4;
-    
     color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.button> {
+    display: inline-block;
 }
 
 .button:hover {
@@ -27,6 +45,7 @@ header {
 .logo {
     font-size: 4rem;
     margin: 1rem;
+    font-weight: 900;
 }
 
 .sublogo {
@@ -35,6 +54,29 @@ header {
     margin-left: 12rem;
 }
 
-.right {
-    background-image: url("/static/main/logo.png")
+.logo-img {
+    height: 10rem;
+    opacity: 0.5;
+}
+
+.logo-img:hover {
+    opacity: 0.9;
+}
+
+.logo-level {
+    display: flex;
+}
+
+main {
+    margin: 10px;
+    display: flex;
+}
+
+.data-block {
+    margin: 10px;
+}
+
+.title {
+    color: #fc5226;
+    font-weight: 600;
 }

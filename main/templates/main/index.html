@@ -9,12 +9,14 @@
     <title>Best Clock App Ever</title>
 </head>
 <body>
-    <header class="logo-level">
+    <header class="logo-level noselect">
+        <a href="/">
+            <img class="logo-img" src="{% static 'main/logo.png' %}" alt="">
+        </a>
         <div class="left">
             <div class="logo">BCAE</div>
             <div class="sublogo">Best Clock App Ever.</div>
         </div>
-        <div class="right"></div>
     </header>
     <main class="data-main">
         <div class="data-block">
@@ -38,7 +40,7 @@
             <div class="data">{{ power_from_network }}</div>
         </div>
     </main>
-    <a href="/">
+    <a class="noselect" href="/">
         <div class="button">
             <div class="upperbutton">Refresh Data</div>
             <div class="lowersubbutton">(if it was updated from mobile device)</div>
